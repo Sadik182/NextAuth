@@ -1,3 +1,9 @@
+import Login from "@/components/Login/Login";
+
 export default function Home() {
-  return <h1>Practice Next Authentication</h1>;
+  return (
+    <div>
+      <Login />
+    </div>
+  );
 }
